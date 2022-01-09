@@ -1,0 +1,80 @@
+/*========================= GOOGLE FONTS =========================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Federo&family=Libre+Barcode+128&display=swap");
+
+/*========================= VARIABLES CSS =========================*/
+:root {
+  /*-------------------- Colors --------------------*/
+  --clr-dark: #131419;
+  --clr-light: #ffffff;
+  --clr-gray: #a1a1a1;
+  --clr-light-second: #f6f6f6;
+  --clr-theme: #0094ff;
+  --clr-secondary: #774cff;
+
+  /*-------------------- Font and typography --------------------*/
+  --font-body: "Federo", "Poppins", sans-serif;
+  --font-barcode: "Libre Barcode 128", cursive;
+
+  --fs-big: 2rem;
+  --fs-h1: 1.5rem;
+  --fs-h2: 1.25rem;
+  --fs-h3: 1.125rem;
+  --fs-normal: 0.938rem;
+  --fs-small: 0.813rem;
+  --fs-smaller: 0.75rem;
+
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+
+  /*========== Margenes Bottom ==========*/
+  /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 20;
+  --z-modal: 30;
+}
+
+/*==================== BASE ====================*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: var(--clr-dark);
+  background-color: var(--clr-light);
+  font-family: var(--font-body);
+  font-size: var(--fs-normal);
+  margin: 0 0 3rem 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*==================== REUSABLE CSS CLASSES ====================*/
+
+/*==================== LAYOUT ====================*/
+
+/*==================== NAV ====================*/
+
+/*==================== HOME ====================*/

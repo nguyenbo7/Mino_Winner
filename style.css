@@ -54,10 +54,10 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  color: var(--clr-dark);
-  background-color: var(--clr-light);
+  color: var(--clr-light);
+  background-color: var(--clr-dark);
   font-family: var(--font-body);
-  font-size: var(--fs-normal);
+  font-size: var(--fs-h2);
   margin: 0 0 3rem 0;
 }
 ul {
@@ -101,3 +101,28 @@ nav ul li {
 }
 
 /*==================== HOME ====================*/
+.home__container {
+  margin-top: 10rem;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  /* background-color: aquamarine; */
+}
+
+.home__img-lists img {
+  height: 450px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  margin: 40px auto;
+}
+
+.img-wings {
+  position: absolute;
+  top: 70px;
+  right: 350px;
+  z-index: -1;
+}
+
+.title-unique {
+  color: var(--clr-theme);
+}

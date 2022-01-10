@@ -76,5 +76,28 @@ img {
 /*==================== LAYOUT ====================*/
 
 /*==================== NAV ====================*/
+nav {
+  top: 0;
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  /* background-color: var(--clr-secondary); */
+}
+
+/* nav ul {
+  background-color: #0094ff;
+} */
+
+nav ul li {
+  display: inline;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 100px;
+}
 
 /*==================== HOME ====================*/

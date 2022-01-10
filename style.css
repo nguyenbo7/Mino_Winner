@@ -78,13 +78,13 @@ img {
 /*==================== NAV ====================*/
 nav {
   top: 0;
-  height: 6rem;
+  height: 10rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  /* background-color: var(--clr-secondary); */
+  /* background-color: aquamarine; */
 }
 
 /* nav ul {
@@ -96,8 +96,17 @@ nav ul li {
   padding: 20px;
 }
 
+nav ul li a {
+  color: var(--clr-gray);
+}
+
 .logo {
   font-size: 100px;
+  margin-left: 50px;
+  color: var(--clr-gray);
+}
+.logo:hover {
+  color: var(--clr-light);
 }
 
 /*==================== HOME ====================*/
